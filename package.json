@@ -1,13 +1,11 @@
 {
   "name": "zmanim",
-  "version": "0.0.0",
-  "description": "zmanim",
+  "version": "0.0.1",
+  "description": "Calculate jewish times, with different shittot.",
   "license": "MIT",
-  "repository": "",
-  "author": "",
-  "keywords": [
-    ""
-  ],
+  "repository": "https://github.com/kikar/zmanim",
+  "author": "kikar",
+  "keywords": [ "calendar", "zemanim", "jew", "jewish", "zmanim" ],
   "files": [
     "lib"
   ],
