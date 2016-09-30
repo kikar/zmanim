@@ -1,5 +1,5 @@
 
-import { months } from '../src/HebrewMonths';
+import { months, years, JewishDate } from '../src/JewishDate';
 import * as chai from "chai";
 
 const expect = chai.expect;
@@ -14,4 +14,11 @@ describe('months', () => {
     expect(months[7]).to.equal('TISHREI');
     expect(months[9]).to.equal('KISLEV');
   });
+
+  it('should work with accessors', () => {
+    let jd = new JewishDate();
+
+    jd.moladHours = 5;
+    expect(jd.moladHours).to.equal(5);
+  })
 })
